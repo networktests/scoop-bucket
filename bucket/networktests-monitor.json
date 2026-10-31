@@ -1,19 +1,19 @@
 {
-    "version": "0.4.5",
+    "version": "0.4.6",
     "description": "Continuous network monitoring with plain-English verdicts (Wi-Fi vs router vs ISP vs machine)",
     "homepage": "https://networktests.com/monitor",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/networktests/networktests/releases/download/v0.4.5/NetworkTests-Monitor-setup-0.4.5.msi",
-            "hash": "3d11e00708f337f9ecd007e910fa9c35d07e7d31bf0566ad39cf70cff74204c8"
+            "url": "https://github.com/networktests/networktests/releases/download/v0.4.6/NetworkTests-Monitor-setup-0.4.6.msi",
+            "hash": "d889cc649293a47afa006d2e418bab4164c913801e9c58d8e2c6f93dda1ac49b"
         }
     },
     "installer": {
-        "script": "msiexec /i \"$dir\\NetworkTests-Monitor-setup-0.4.5.msi\" /qn /norestart"
+        "script": "msiexec /i \"$dir\\NetworkTests-Monitor-setup-0.4.6.msi\" /qn /norestart"
     },
     "uninstaller": {
-        "script": "msiexec /x \"{33058B2D-D605-4AFC-A7A9-F60F7C0ACEA9}\r\" /qn /norestart"
+        "script": "msiexec /x \"{AC83E953-D8A2-420D-B24F-135D1AEA298D}\r\" /qn /norestart"
     },
     "checkver": {
         "github": "https://github.com/networktests/networktests"
